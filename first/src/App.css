@@ -1,0 +1,225 @@
+
+
+.container{
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: black;
+}
+.head{
+  width: 100vw;
+  height: 762px;
+  /* display: flex; */
+  background-image: url('./Image/homePic.jpg');
+  background-repeat: no-repeat;
+  /* filter: blur(2px); */
+  box-shadow: inset 0 0 500px 90px #000000;
+  opacity: 0.8;
+}
+.signUp{
+  margin-right: 200px;
+  width: 73px;
+  height: 33px;
+  border-radius: 10%;
+  border-style: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.headerContainer{
+  /* width: 900px; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-direction: row;
+}
+.netflix{
+  margin-left:110px;
+  font-size: 80px;
+  color: #e40a15;
+  /* font-weight: 200px; */
+}
+.firstSec{
+  display: flex;
+  flex-direction: column;
+}
+.midheadCon{
+  width: 100vw;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerheadCon{
+  width: 780px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.input{
+  width: 600px;
+  height: 60px;
+  padding-left: 10px;
+}
+.button{
+  width: 180px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e40a15;
+  color: white;
+  border-style: none;
+  font-size: 30px;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+}
+.text{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /* margin-top: -5%; */
+}
+.tvANDtextHold{
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.CreateKidsPro{
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.watch{
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.dash{
+  width: 100vw;
+  height: 10px;
+  background-color: #222222;  
+}
+.WhatIsNetflix{
+  width: 900px;
+  height: 75px;
+  background-color: #303030;
+  /* margin-bottom: 9px; */
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.khaliun{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.infoBoutNetflix{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.per{
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.plus{
+  width: 45px;
+  height: 45px;
+}
+.LastSec{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+/* style={{ display;'flex' color: "white" , fontSize: '3.125rem' , lineHeight: "1.1", marginBottom: "0.5rem" , fontWeight: "700"}} */
+.questions{
+  color: white;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.ready{
+  color: white;
+  font-size: 1rem;
+  font-weight:300;
+  margin-top: 20px;
+}
+.mainFooter{
+  width: 100vw;
+  height: 323px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer{
+  width: 75%;
+  height: 80%;
+  color:#737373;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+/* .column{
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+.gap{
+  height: 33px;
+}
+.row{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hary{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+}
+.position{
+  position: relative;
+  left: -290px;
+  top: -25px;
+  font-size: 18px;
+}
+.positionm{
+  position: relative;
+  left: -313px;
+  bottom: -25px;
+  font-size: 18px;
+}

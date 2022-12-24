@@ -1,0 +1,50 @@
+.listAllContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+}
+.listContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.title{
+    display: flex;
+    width: 80vw;
+    justify-content: start;
+    color: #fff;
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.header{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.xmovie{
+    color: #fff;
+    font-size: 80px;
+    color: #e40a15;
+}
+.search{
+    width: 15vw;
+    height: 4vh;
+    border-radius: 20px;
+    padding-left: 18px;
+    background-color: #ffffff33;
+    border: none;
+}
