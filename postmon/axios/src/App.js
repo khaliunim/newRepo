@@ -1,4 +1,5 @@
 import  axios from "axios"
+import  "./App.css"
 import React, {useEffect, useState} from "react"
 
 function App() {
@@ -21,11 +22,21 @@ function App() {
     getdata()
   })
   return (
-    <div>
+    <div className="App"> 
       {data.map((cur) =>(
-        <div>
-          <div>{cur.firstName}</div>
-          <div>{cur.lastName}</div>
+        <div className="container">
+          <div className="fName">
+            <h3>firstName:</h3>
+            <div>{cur.firstName}</div>
+          </div>
+          <div className="fName">
+            <h3>lastName:</h3>
+            <div>{cur.lastName}</div>
+          </div>
+          <div className="fName">
+            <h3>Date:</h3>
+            <div>{cur.registerDate}</div>
+          </div>
         </div>
       ))}
     </div>
