@@ -23,3 +23,39 @@
   justify-content: space-between;
   align-items: center;
 }
+.modalContainer {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.3);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+
+  padding: 80px;
+}
+
+.inputContainer {
+  margin: 5px;
+}
+
+.inputContainer > h4 {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.inputContainer > input {
+  font-size: 26px;
+}

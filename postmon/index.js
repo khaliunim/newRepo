@@ -7,11 +7,8 @@ const cors = require('cors')
 const connect = require("./DB");
 connect();
 const { createUser, getUsers, getUser, updateUser, DeleteUser } = require("./Controller");
-// const { updateOne } = require("./model");
 router
   .post("/", createUser)
-  // .get('/', ( response ) => { response.status('200').json({ message: 'alive' }) })
-  // .get("/" , getUser)
   .get("/", getUsers)
   .get("/:id", getUser)
   .patch("/:id", updateUser)

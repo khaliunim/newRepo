@@ -1,6 +1,4 @@
-// const { get } = require("mongoose");
-const { request, response } = require("express");
-
+const { request } = require("http");
 const UserModel = require("./model");
 
 
@@ -13,6 +11,7 @@ exports.createUser = async (request, response, next) => {
     }
     console.log('asdasd')
     const createUser = await UserModel.create({ ...request.body });
+    console.log(createUser)
     response
         .status(201)
         .json({ message: `New user is created.`, data: createUser });
